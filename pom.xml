@@ -18,8 +18,8 @@
     <description>Demo project for Spring Boot Multi Module</description>
 
     <modules>
-        <module>repo</module>
-        <module>service</module>
+        <module>api</module>
+        <module>core</module>
         <module>web</module>
     </modules>
     <packaging>pom</packaging>
@@ -36,12 +36,12 @@
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>repo</artifactId>
+                <artifactId>api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>service</artifactId>
+                <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
